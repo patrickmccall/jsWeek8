@@ -1,4 +1,4 @@
-<!doctype html>
+﻿<!doctype html>
 <html>
 <head>
 <meta charset="UTF-8">
@@ -21,61 +21,8 @@ media="screen and (min-width:1001px) and (max-width:2048px)"
 </head>
 <body class="page"> 
 <script>
-	$("document").ready( function(){
-		
-		//$("img").not(".no-figure").addClass("error");
-		//$("#drawing").children().addClass("error");
-		//$(".panel").children().addClass("error");
-		var firstImage = $("#drawing img:nth-child(5)");
-		//firstImage.next().addClass("error");
-		//firstImage.prev().addClass("error");
-	
-	//***************** GREENSOCK ************
-	//TweenMax.to("#drawing", 3, {x:300, ease:Bounce.easeOut, repeat:2, yoyo:true});
-	var animSpeed = .5;
-	// TweenMax.to("header", animSpeed, {x:1500, alpha:.5, ease:Bounce.easeOut });
-	// TweenMax.to("nav", animSpeed, {x:1500, alpha:.5, ease:Bounce.easeOut, delay: 2 });
-// 	
-	// TweenMax.to("#drawing", animSpeed, {x:1500, alpha:.5, ease:Bounce.easeOut, delay: 4});
-// 	
-	// TweenMax.to("#water-color", animSpeed, {x:-1500, alpha:.5, ease:Bounce.easeOut, delay: 6 });
-// 	
-	// TweenMax.to("#oil", animSpeed, {x:1500, alpha:.5, ease:Bounce.easeOut, delay: 8 });
-// 	
-	// TweenMax.to("aside", animSpeed, {x:-1500, alpha:.5, ease:Bounce.easeOut, delay: 10 });
-	//TweenMax.to("#water-color", 5, {rotation:-360, repeat:99}  );
-	//TweenMax.to("#oil", 2, {rotation:360, repeat:99}  );
-		
-	// TweenMax.from("header", animSpeed, {
-		// x:50, 
-		// alpha:0, 
-		// ease:Bounce.easeOut 
-// 		
-		// });
-	// TweenMax.from("nav", animSpeed, {x:50, alpha:0, ease:Bounce.easeOut, delay: 2 });
-// 	
-	// TweenMax.from("#drawing", animSpeed, {x:50, alpha:0, ease:Elastic.easeOut, delay: 4});
-// 	
-	// TweenMax.from("#water-color", animSpeed, {x:-50, alpha:0, ease:Bounce.easeOut, delay: 6 });
-// 	
-	// TweenMax.from("#oil", animSpeed, {x:50, alpha:0, ease:Bounce.easeOut, delay: 8 });
-// 	
-	// TweenMax.from("aside", animSpeed, {x:-50, alpha:0	, ease:Bounce.easeOut, delay: 10 });
-	
-	//create a TimeLineLite instance
-	var myTimeLine = new TimelineLite();
-	myTimeLine.from("header", animSpeed, {x:50, alpha:0, ease:Bounce.easeOut});
-	myTimeLine.from("nav", animSpeed, {x:50, alpha:0, ease:Bounce.easeOut});
-	myTimeLine.from("#drawing", animSpeed, {x:50, alpha:0, ease:Elastic.easeOut});
-	myTimeLine.from("#water-color", animSpeed, {x:-50, alpha:0, ease:Bounce.easeOut});
-	myTimeLine.from("#oil", animSpeed, {x:50, alpha:0, ease:Bounce.easeOut});
-	myTimeLine.from("aside", animSpeed, {x:-50, alpha:0	, ease:Bounce.easeOut});
-	myTimeLine.staggerFrom("img", animSpeed, {x:-50, ease:Bounce.easeOut}, .1);
-	//myTimeLine.reverse(0);//reverse the entire animation seq
-	//myTimeLine.timeScale(1);
-	});//closing document.ready
-	
-
+  $("document").ready(function () {
+  });
 
 
 </script>
